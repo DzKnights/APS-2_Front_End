@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="ex01.css">
+</head>
+
+<body>
+    <h3><a href="../index.html " style="background: red;">Home</a></h3>
+    <h1>Dados da conta</h1>
+    <img src="form1_back.jpg" alt="form">
+
+    <form action="" method="post" nome="form">
+        <input type="hidden" nome="deOnde" value="forma organizado">
+
+        <fieldset>
+            <legend>Dados Pessoais:</legend>
+            <p>
+                <label for="nome">Nome:</label>
+                <input type="text" nome="nome" id="nome">
+            </p>
+            <p>
+                <label for="email">Email:</label>
+                <input type="text" name="email" id="email">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Dados da Conta:</legend>
+            <p>
+                <label for="senha">Senha:</label>
+                <input type="password" nome="senha" id="senha">
+            </p>
+            <p>
+                <label for="frase">Frase opcional:</label>
+                <textarea type="frase" id="frase"></textarea>
+            </p>
+        </fieldset>
+        <p>
+            <input type="submit" value="enviar">
+        </p>
+    </form>
+
+</body>
+
+</html>

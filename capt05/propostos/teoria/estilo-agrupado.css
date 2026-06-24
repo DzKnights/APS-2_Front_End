@@ -1,0 +1,114 @@
+ body {
+    width: 90%;
+    max-width: 1800px;
+    margin: auto;
+}
+@media screen and (max-width: 419px) {
+
+
+main {
+    max-width: 1000px;
+}
+
+main img {
+    width: 100%;
+}
+
+main p {
+    text-align: justify;
+}
+
+section {
+
+    width: 100%;
+    float: left;
+}
+
+section img {
+    max-width: 100%;
+
+}
+
+section:nth-child(2) {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.soPequeno {
+    display: block;
+}
+
+.soGrande,
+.soMedio {
+    display: none;
+}
+}
+@media screen and (min-width: 420px) {
+
+
+main {
+    max-width: 1000px;
+}
+
+main img {
+    width: 100%;
+}
+
+section {
+    width: 48%;
+    float: left;
+}
+
+section img {
+    width: 100%;
+}
+
+section:first-of-type {
+    margin-right: 4%;
+}
+
+.soMedio {
+    display: block;
+}
+
+.soGrande,
+.soPequeno {
+    display: none;
+}
+}
+@media screen and (min-width: 680px) {
+
+
+section {
+    width: 30%;
+    float: left;
+}
+
+section img {
+    max-width: 100%;
+}
+
+section:nth-child(2) {
+    margin: 0 2%;
+}
+
+section:last-of-type img {
+
+    padding-bottom: 21.5%;
+}
+
+.soGrande {
+    display: block;
+}
+
+.soMedio,
+.soPequeno {
+    display: none;
+}
+
+section:last-of-type {
+    float: left;
+    width: 30%;
+}
+
+}

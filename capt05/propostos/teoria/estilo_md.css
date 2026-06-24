@@ -1,0 +1,36 @@
+body {
+
+    max-width: 1000px;
+    margin: auto;
+    text-align: left;
+}
+
+main {
+    max-width: 1000px;
+}
+
+main img {
+    width: 100%;
+}
+
+section {
+    width: 48%;
+    float: left;
+}
+
+section img {
+    width: 100%;
+}
+
+section:first-of-type {
+    margin-right: 4%;
+}
+
+.soMedio {
+    display: block;
+}
+
+.soGrande,
+.soPequeno {
+    display: none;
+}

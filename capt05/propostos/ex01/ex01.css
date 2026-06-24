@@ -1,0 +1,27 @@
+body {
+    width: 50%;
+    margin: auto;
+}
+img{
+    float: left;
+}
+h1 {
+    text-align: right;
+    color: #909;
+    border-bottom: solid #909;
+}
+fieldset{
+    border: solid #FCC 2px;
+}
+input, textarea{
+    border: none;
+    background-color: #FCC;
+    width: 50%;
+}
+label{
+    width: 60px;
+    display: inline-block;
+}
+input[type="submit"]{
+    width: 80px;
+}
