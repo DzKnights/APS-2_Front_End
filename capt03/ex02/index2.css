@@ -1,0 +1,20 @@
+h1{
+    color: #764e36;
+    border-top: solid #764e36;
+    border-bottom: solid #764e36;
+}
+
+h3{
+    color: white;
+    background-color: #764e36;
+}
+img{
+    border:solid #764e36;
+    padding: 10px;
+}
+body{
+    background-color: #fcfcfc;
+    width: 650px;
+    text-align: justify;
+    margin: auto;
+}

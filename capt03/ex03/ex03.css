@@ -1,0 +1,37 @@
+h2{
+    background-color:#7faeb7;
+}
+p{
+    color: #7faeb7;
+}
+hr{
+    border-color: #7faeb7;
+    border-style: solid;
+    border-width: 2px;
+}
+p a:link{
+    text-decoration: none;
+    color: #7faeb7; 
+    font-weight: bold;
+}
+p a:visited{
+    color: #c9e0e5;
+}
+p a:hover{
+    color: #ffa700; 
+}
+body{
+    width: 650px;
+    text-align: justify;
+    margin: auto;
+}
+img:hover{
+    border: #ffa700 solid 5px;
+}
+
+a:first-of-type img:hover{
+    border-radius: 25px 0px 0px 25 px;
+}
+a:last-of-type img:hover{
+    border-radius: 0px 25px 25px 0px;
+}
